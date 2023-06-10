@@ -39,7 +39,9 @@ struct ContentView: View {
     }
     
     private func changeColor() {
-        buttonText = "Next"
+        if buttonText == "Start" {
+            buttonText = "Next"
+        }
         if redLightAlpha == 1.0 {
             redLightAlpha = 0.3
             yellowLightAlpha = 1.0
@@ -61,3 +63,5 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+//сделать тень только у загорающегося сигнала.
