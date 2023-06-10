@@ -11,6 +11,8 @@
 		5BDF14F72A34F87800BC9CC3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDF14F62A34F87800BC9CC3 /* ContentView.swift */; };
 		5BDF14F92A34F88200BC9CC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BDF14F82A34F88200BC9CC3 /* Assets.xcassets */; };
 		5BDF14FC2A34F88200BC9CC3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BDF14FB2A34F88200BC9CC3 /* Preview Assets.xcassets */; };
+		5BDF15032A34F90300BC9CC3 /* LightUnitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDF15022A34F90300BC9CC3 /* LightUnitView.swift */; };
+		5BDF15052A35118100BC9CC3 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDF15042A35118100BC9CC3 /* ButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		5BDF14F62A34F87800BC9CC3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5BDF14F82A34F88200BC9CC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BDF14FB2A34F88200BC9CC3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5BDF15022A34F90300BC9CC3 /* LightUnitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightUnitView.swift; sourceTree = "<group>"; };
+		5BDF15042A35118100BC9CC3 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				5BDF14F42A34F87800BC9CC3 /* SUITrafficLightApp.swift */,
 				5BDF14F62A34F87800BC9CC3 /* ContentView.swift */,
+				5BDF15022A34F90300BC9CC3 /* LightUnitView.swift */,
+				5BDF15042A35118100BC9CC3 /* ButtonView.swift */,
 				5BDF14F82A34F88200BC9CC3 /* Assets.xcassets */,
 				5BDF14FA2A34F88200BC9CC3 /* Preview Content */,
 			);
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BDF15032A34F90300BC9CC3 /* LightUnitView.swift in Sources */,
 				5BDF14F72A34F87800BC9CC3 /* ContentView.swift in Sources */,
+				5BDF15052A35118100BC9CC3 /* ButtonView.swift in Sources */,
 				5BDF14F52A34F87800BC9CC3 /* SUITrafficLightApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
